@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18224" started-at="2020-07-04T13:29:51Z" finished-at="2020-07-04T13:30:09Z">
+    <groups>
+    </groups>
+    <test name="Create Order Test" duration-ms="13798" started-at="2020-07-04T13:29:51Z" finished-at="2020-07-04T13:30:05Z">
+      <class name="com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest">
+        <test-method status="PASS" signature="createOrder()[pri:0, instance:com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest@306f16f3]" name="createOrder" duration-ms="13656" started-at="2020-07-04T13:29:51Z" finished-at="2020-07-04T13:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+      </class> <!-- com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest -->
+    </test> <!-- Create Order Test -->
+    <test name="Get Order Test" duration-ms="3293" started-at="2020-07-04T13:30:06Z" finished-at="2020-07-04T13:30:09Z">
+      <class name="com.w2a.APITestingFramework.testcases.paypal.GetOrderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.APITestingFramework.testcases.paypal.GetOrderTest@4d02f94e]" name="setUp" is-config="true" duration-ms="1581" started-at="2020-07-04T13:29:49Z" finished-at="2020-07-04T13:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getOrder()[pri:0, instance:com.w2a.APITestingFramework.testcases.paypal.GetOrderTest@4d02f94e]" name="getOrder" duration-ms="3281" started-at="2020-07-04T13:30:06Z" finished-at="2020-07-04T13:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.APITestingFramework.testcases.paypal.GetOrderTest@4d02f94e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-04T13:30:09Z" finished-at="2020-07-04T13:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.APITestingFramework.testcases.paypal.GetOrderTest -->
+    </test> <!-- Get Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
