@@ -20,6 +20,7 @@ public class TestMail {
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 		MonitoringMail mail = new MonitoringMail();
